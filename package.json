@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bower/bower.git"
+    "url": "git://github.com/createbang/shellVarParser.git"
   },
   "bugs": {
     "url": "https://github.com/createbang/shellVarParser/issues"
