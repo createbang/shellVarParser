@@ -1,10 +1,11 @@
 {
-  "name": "shellVarParser",
+  "name": "shellvarparser",
   "version": "0.0.1",
   "description": "Parse shell constant variables into a Javascript object.",
   "author": {
     "name": "Michael Phillips"
   },
+  "main": "lib/shellVarParser.js",
   "dependencies": {
     "underscore": "1.5.2"
   },
@@ -19,6 +20,7 @@
   "directories": {
     "test": "test"
   },
+
   "scripts": {
     "test": "mocha test/*.js"
   },
