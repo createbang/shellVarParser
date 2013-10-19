@@ -8,9 +8,19 @@
   "dependencies": {
     "underscore": "1.5.2"
   },
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/createbang/shellVarParser.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
   },
   "bugs": {
     "url": "https://github.com/createbang/shellVarParser/issues"
