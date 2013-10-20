@@ -1,7 +1,7 @@
 shellVarParser
 ==============
 
-![Build Status](https://travis-ci.org/createbang/shellVarParser.png!)
+![Build Status](https://travis-ci.org/createbang/shellVarParser.png)
 
 Parse shell constant variables into a Javascript object.
 
