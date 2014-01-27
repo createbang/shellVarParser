@@ -1,6 +1,6 @@
 {
   "name": "shellvarparser",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parse shell constant variables into a Javascript object.",
   "author": {
     "name": "Michael Phillips"
