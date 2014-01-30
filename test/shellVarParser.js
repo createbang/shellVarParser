@@ -31,5 +31,9 @@ describe('shellVarParser', function() {
     it('does not expand newlines if single-quoted', function() {
       parsed("DONT_EXPAND_NEWLINES_SINGLE_QUOTED='dontexpand\\nnewlines'").DONT_EXPAND_NEWLINES_SINGLE_QUOTED.should.eql("dontexpand\\nnewlines");
     });
+    
+    it('allows equals in the value', function() {
+      parsed("EQUALS_IN_VALUE=this!=that,me == myself").EQUALS_IN_VALUE.should.equal("this!=that,me == myself");
+    });
   });
 });
