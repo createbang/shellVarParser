@@ -35,5 +35,13 @@ describe('shellVarParser', function() {
     it('allows equals in the value', function() {
       parsed("EQUALS_IN_VALUE=this!=that,me == myself").EQUALS_IN_VALUE.should.equal("this!=that,me == myself");
     });
+    
+    it('does not break on a key with blank value', function() {
+      parsed("BLANK_VALUE=").BLANK_VALUE.should.eql("");
+    });
+
+    it('does not break on a key with missing value', function() {
+      parsed("NO_VALUE").NO_VALUE.should.eql("");
+    });
   });
 });
